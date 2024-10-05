@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= celebrity.name %></title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Thông tin chi tiết</h1>
+    <div class="celebrity-detail">
+        <img src="<%= celebrity.photo %>" alt="<%= celebrity.name %>">
+        <p><strong>Họ và tên:</strong> <%= celebrity.name %></p>
+        <p><strong>Giới tính:</strong> <%= celebrity.gender %></p>
+        <p><strong>Ngày sinh:</strong> <%= celebrity.birthDate %></p>
+        <p><strong>Quê quán:</strong> <%= celebrity.hometown %></p>
+        <p><strong>Nghề nghiệp:</strong> <%= celebrity.occupation %></p>
+        <p><strong>Tình trạng hôn nhân:</strong> <%= celebrity.maritalStatus %></p>
+        <a href="/">Quay lại danh sách</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+[
+    {
+      "name": " Sơn Tùng",
+      "gender": "nam",
+      "birthDate": "1950-11-11",
+      "hometown": "Hà Nội",
+      "occupation": "Nhạc sĩ",
+      "maritalStatus": "Đã kết hôn",
+      "photo": "/images/images.jpg"
+    },
+    {
+      "name": "Taylor Swift",
+      "gender": "nữ",
+      "birthDate": "1980-03-05",
+      "hometown": "TP.HCM",
+      "occupation": "Diễn viên",
+      "maritalStatus": "Độc thân",
+      "photo": "/images/2.jpg"
+    }
+  ]
+  
